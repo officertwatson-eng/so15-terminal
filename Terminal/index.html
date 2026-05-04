@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BASE44 | SO15 Counter Terrorism</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0a1428] text-gray-200">
+  <!-- Header -->
+  <header class="bg-black border-b border-red-900 py-4 px-6 flex justify-between items-center">
+    <div class="flex items-center gap-4">
+      <h1 class="text-3xl font-bold tracking-widest">BASE44</h1>
+      <span class="text-red-500 text-sm border border-red-900 px-4 py-1 rounded">RESTRICTED • SENSITIVE</span>
+    </div>
+    <div class="flex items-center gap-6">
+      <span id="user-display" class="text-sm"></span>
+      <button onclick="logout()" class="bg-red-900 hover:bg-red-700 px-5 py-2 rounded text-sm">LOGOUT</button>
+    </div>
+  </header>
+
+  <div class="flex h-[calc(100vh-73px)]">
+    <!-- Sidebar -->
+    <nav class="w-64 bg-[#0f172a] border-r border-gray-800 p-4 space-y-2" id="sidebar">
+      <!-- Filled by JS -->
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-8 overflow-auto" id="main-content"></main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

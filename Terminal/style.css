@@ -1,0 +1,22 @@
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.classified {
+  background: repeating-linear-gradient(45deg, #0a1428, #0a1428 10px, #1e2937 10px, #1e2937 20px);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.red-stamp {
+  color: #ef4444;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
